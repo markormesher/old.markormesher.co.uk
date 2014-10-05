@@ -1,0 +1,50 @@
+/* nav */
+
+div.nav {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	background: url('../images/nav-bg.png');
+}
+
+div.nav.floating {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+div.nav ul {
+	margin: 0;
+	padding: 0.5em 0 0.3em;
+}
+
+div.nav ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 1.2em;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+div.nav ul li, div.nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+div.nav ul li a {
+	border-bottom: 1px transparent solid;
+}
+
+div.nav ul li a:hover {
+	border-bottom-color: #ffffff;
+}
+
+div.nav ul li.active a:hover {
+	border-bottom-color: transparent !important;
+}
+
+div.nav ul li.active, div.nav ul li.active a {
+	color: #ff590d;
+}

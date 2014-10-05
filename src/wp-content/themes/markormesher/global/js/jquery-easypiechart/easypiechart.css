@@ -1,0 +1,15 @@
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 110px;
+}
+
+.chart .percentage {
+	position: relative;
+}
+
+.chart .label p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

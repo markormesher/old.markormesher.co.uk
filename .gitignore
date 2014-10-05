@@ -1,0 +1,7 @@
+# IntelliJ
+.idea/
+*.iws
+*.iml
+
+# WP
+src/wp-config.php

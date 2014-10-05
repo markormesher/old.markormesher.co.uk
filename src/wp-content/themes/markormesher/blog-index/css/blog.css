@@ -1,0 +1,17 @@
+/* meta */
+
+p.date-line {
+	color: #555555;
+	font-style: italic;
+}
+
+/* tag list */
+
+ul.tag-list li {
+	list-style-type: none;
+}
+
+ul.tag-list li a {
+	color: inherit !important;
+	border-bottom-style: none;
+}

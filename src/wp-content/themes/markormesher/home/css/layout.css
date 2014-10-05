@@ -1,0 +1,21 @@
+/* page basics */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* sections */
+
+div.section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+div.section.full-screen {
+	position: relative;
+	height: 100%;
+}

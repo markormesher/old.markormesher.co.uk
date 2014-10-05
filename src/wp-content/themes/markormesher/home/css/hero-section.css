@@ -1,0 +1,107 @@
+div.hero {
+	background: url('../images/hero-bg-1920.jpg') fixed bottom center;
+	background-size: cover;
+}
+
+/* banner */
+
+div.hero:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	height: 100%;
+	width: 0;
+	margin-left: -0.5em;
+}
+
+div.hero div.banner {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	margin: 0 10%;
+	padding: 0.5em 0;
+	background-image: url('../images/hero-banner-bg.png');
+	text-align: center;
+}
+
+/* text */
+
+div.hero div.banner h1 {
+	margin: 0 0 0.2em;
+	padding: 0;
+	font-weight: 900;
+	font-size: 5em;
+	line-height: 1em;
+	color: #ffffff;
+}
+
+div.hero div.banner p {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	font-size: 3em;
+	line-height: 1.1em;
+	color: #ffffff;
+}
+
+div.hero div.banner p span {
+	color: #ff590d;
+}
+
+/* divider */
+
+div.hero div.hr {
+	width: 30%;
+	height: 1px;
+	margin: 1em auto;
+	background-image: url('../images/hero-hr-bg.png');
+}
+
+/* icons */
+
+ul.icons {
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+}
+
+ul.icons li {
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	margin: 0 20px;
+}
+
+ul.icons li a {
+	color: #ffffff;
+	border-bottom-style: none;
+}
+
+ul.icons li a:hover {
+	color: #ff590d;
+}
+
+/* scroll icon */
+
+p.scroll-icon {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+p.scroll-icon a {
+	color: #ffffff;
+	border-bottom-style: none;
+}
+
+p.scroll-icon a:hover {
+	color: #ff590d;
+}
