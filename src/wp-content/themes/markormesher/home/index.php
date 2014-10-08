@@ -151,7 +151,7 @@
 			<h3>Popular Tags</h3>
 			<ul class="blog-tag-list">
 				<?php
-				$tags = get_tags('orderby=count;number=6');
+				$tags = get_tags(array('orderby' => 'count', 'number' => 6));
 				foreach ($tags as $t) {
 					$link = get_tag_link($t->term_id);
 					echo('<li><a href="' . $link . '" title="' . $t->name . ' posts">#' . $t->name . '</a></li>');

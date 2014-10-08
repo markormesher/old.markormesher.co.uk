@@ -1,5 +1,6 @@
 <?php
 $css = array();
+$css[] = 'blog-index/css/blog.css';
 
 $js = array();
 
