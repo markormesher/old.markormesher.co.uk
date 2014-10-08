@@ -30,7 +30,7 @@
 		</div>
 		<div class="three column">
 			<p><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;+44 (0) 7775 932063</p>
-			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;me@markormesher.co.uk</p>
+			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;mark@ormo.me</p>
 			<p><i class="fa fa-skype"></i>&nbsp;&nbsp;&nbsp;&nbsp;mark.ormo</p>
 			<p><i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;@m_s_ormo</p>
 		</div>
