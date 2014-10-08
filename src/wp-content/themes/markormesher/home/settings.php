@@ -1,9 +1,5 @@
 <?php
 $css = array();
-$css[] = 'global/css/font-defaults.css';
-$css[] = 'global/css/nav.css';
-$css[] = 'global/css/columns.css';
-$css[] = 'global/css/layout-items.css';
 $css[] = 'global/js/jquery-easypiechart/easypiechart.css';
 $css[] = 'home/css/layout.css';
 $css[] = 'home/css/fonts.css';

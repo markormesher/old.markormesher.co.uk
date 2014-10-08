@@ -77,13 +77,3 @@ ul.blog-tag-list li a {
 	color: inherit !important;
 	border-bottom-style: none;
 }
-
-/* footer */
-
-.section.footer {
-	background-color: #333333;
-}
-
-.section.footer p {
-	color: #ffffff;
-}

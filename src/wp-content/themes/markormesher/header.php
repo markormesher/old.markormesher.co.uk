@@ -12,6 +12,13 @@ global $css, $js, $includes;
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,300,900"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/font-awesome/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/font-defaults.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/nav.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/columns.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/pages.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/layout-items.css"/>
 <?php
 		$settingsFile = false;
 		if (is_page()) {
