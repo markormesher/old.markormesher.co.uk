@@ -8,6 +8,8 @@ global $css, $js, $includes;
 		<title><?php
 			if (is_tag()) {
 				single_tag_title('Tagged: #');
+			} elseif (is_404()) {
+				echo('404: Nothing Found');
 			} else {
 				wp_title('');
 			}
@@ -37,6 +39,9 @@ global $css, $js, $includes;
 			}
 		} elseif (is_single()) {
 			$settingsFile = 'blog-post/settings.php';
+		} elseif (is_404()) {
+			define('PAGE_ERROR', 404);
+			$settingsFile = 'error/settings.php';
 		} else {
 			$settingsFile = 'blog-index/settings.php';
 		}

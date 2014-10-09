@@ -98,7 +98,7 @@ ul {
 }
 
 li {
-	list-style-position: inside;
+	list-style-position: outside;
 }
 
 ul.inside li {
@@ -107,9 +107,13 @@ ul.inside li {
 }
 
 em {
-	font-weight: bold;
-	color: #ff590d;
+	font-weight: 400;
+	color: #cc470a;
 	font-style: normal;
+}
+
+.footer em {
+	color: #ff590d;
 }
 
 /* links */
@@ -130,7 +134,11 @@ a:hover, a.imagelink {
 	color: #ff590d;
 }
 
-.error {
+.dark-orange {
+	color: #cc470a;
+}
+
+.error, .error > li {
 	color: #990000;
 	font-weight: 400 !important;
 }

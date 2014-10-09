@@ -3,7 +3,13 @@ $active = isset($activeNavItem) ? $activeNavItem : 'hero';
 $header = isset($showHeader) ? $showHeader : false;
 if ($header) { ?>
 <div class="header">
-	<p><span>Mark Ormesher:</span> <?=$header;?></p>
+	<?php
+	if (strpos($header, '<') != -1) {
+		echo('<p>' . $header . '</p>');
+	} else {
+		echo('<p><span>Mark Ormesher:</span> ' . $header . '</p>');
+	}
+	?>
 	<div class="nav">
 		<ul>
 			<li class="<?= ($active == 'hero' ? 'active ' : ''); ?>hero"><a href="/">ME</a></li>
