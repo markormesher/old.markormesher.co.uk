@@ -107,9 +107,13 @@ ul.inside li {
 }
 
 em {
-	font-weight: bold;
-	color: #ff590d;
+	font-weight: 400;
+	color: #cc470a;
 	font-style: normal;
+}
+
+.footer em {
+	color: #ff590d;
 }
 
 /* links */
@@ -128,6 +132,10 @@ a:hover, a.imagelink {
 
 .orange {
 	color: #ff590d;
+}
+
+.dark-orange {
+	color: #cc470a;
 }
 
 .error, .error > li {
