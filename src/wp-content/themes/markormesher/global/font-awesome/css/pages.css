@@ -1,0 +1,9 @@
+/* pages */
+
+body {
+	background-color: #eeeeee;
+}
+
+div.page {
+	background: url('../images/page-bg.png') repeat-x top;
+}

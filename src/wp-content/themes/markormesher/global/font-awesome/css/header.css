@@ -1,0 +1,19 @@
+/* header */
+
+div.header {
+	background: url('../../home/images/hero-bg-1920.jpg') fixed top center;
+	background-size: cover;
+}
+
+div.header p {
+	margin: 0;
+	font-size: 5em;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 0.3em 0.2em;
+	text-align: center;
+}
+
+div.header p span {
+	font-weight: 300;
+}

@@ -1,0 +1,148 @@
+body {
+	font-size: 1em;
+	font-family: Lato, 'Open Sans', sans-serif;
+}
+
+.block-on-large {
+	display: block;
+}
+
+.inline-on-large {
+	display: inline;
+}
+
+.hide-on-large {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	body {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	body {
+		font-size: 0.6em;
+	}
+
+	.block-on-small {
+		display: block;
+	}
+
+	.inline-on-small {
+		display: inline;
+	}
+
+	.hide-on-small {
+		display: none !important;
+	}
+}
+
+h1, h2, h3, p, label {
+	color: #222222;
+}
+
+/* headings */
+
+h1 {
+	margin: 0;
+	padding: 0 0 0.25em;
+	font-size: 4em;
+	font-weight: 300;
+}
+
+h2 {
+	margin: 0;
+	padding: 0 0 0.25em;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+h3  {
+	margin: 0;
+	padding: 0 0 0.25em;
+	font-size: 1.8em;
+	font-weight: 400;
+}
+
+h2 span {
+	font-style: italic;
+}
+
+/* body text */
+
+p, li, .form-field, .form-button {
+	margin: 0;
+	padding: 0 0 0.8em;
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-position: inside;
+}
+
+ul.inside li {
+	line-height: 1em;
+	margin-left: 1em;
+}
+
+em {
+	font-weight: bold;
+	color: #ff590d;
+	font-style: normal;
+}
+
+/* links */
+
+a {
+	color: #ff590d;
+	text-decoration: none;
+	border-bottom: 1px solid #ff590d;
+}
+
+a:hover, a.imagelink {
+	border-bottom-style: none;
+}
+
+/* useful stuff */
+
+.orange {
+	color: #ff590d;
+}
+
+.error {
+	color: #990000;
+	font-weight: 400 !important;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+code {
+	font-family: "Courier New", serif;
+	background-color: #ffffff;
+	border: 1px #ff590d solid;
+	border-radius: 4px;
+	padding: 0 2px;
+}
