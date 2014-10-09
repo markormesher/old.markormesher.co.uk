@@ -97,6 +97,15 @@ ul {
 	padding: 0;
 }
 
+li {
+	list-style-position: inside;
+}
+
+ul.inside li {
+	line-height: 1em;
+	margin-left: 1em;
+}
+
 em {
 	font-weight: bold;
 	color: #ff590d;
@@ -119,6 +128,11 @@ a:hover, a.imagelink {
 
 .orange {
 	color: #ff590d;
+}
+
+.error, .error > li {
+	color: #990000;
+	font-weight: 400 !important;
 }
 
 .ta-center {
