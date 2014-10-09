@@ -5,7 +5,13 @@ global $css, $js, $includes;
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>"/>
 		<meta name="viewport" content="width=device-width"/>
-		<title><?php wp_title(''); ?></title>
+		<title><?php
+			if (is_tag()) {
+				single_tag_title('Tagged: #');
+			} else {
+				wp_title('');
+			}
+		?></title>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/jquery.js"></script>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/global.js"></script>
 		<link rel="profile" href="http://gmpg.org/xfn/11"/>

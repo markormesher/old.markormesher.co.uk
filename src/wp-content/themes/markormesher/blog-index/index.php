@@ -1,7 +1,25 @@
 <div class="page">
 	<div class="container column-container">
 		<div class="eight column">
-			<p>Content</p>
+			<h1>
+				<?php
+				if (is_tag()) {
+					single_tag_title('#');
+				} else {
+					wp_title('');
+				}
+				?>
+			</h1>
+			<?php
+			if (have_posts()) {
+				while (have_posts()){
+					the_post();
+			?>
+				<p><?=get_the_title();?></p>
+			<?php
+				}
+			}
+			?>
 		</div>
 		<div class="one column column-spacer">
 			&nbsp; <!-- blank -->
