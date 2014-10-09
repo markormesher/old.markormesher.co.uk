@@ -4,7 +4,7 @@ $header = isset($showHeader) ? $showHeader : false;
 if ($header) { ?>
 <div class="header">
 	<?php
-	if (strpos($header, '<') != -1) {
+	if (strpos($header, '<') > -1) {
 		echo('<p>' . $header . '</p>');
 	} else {
 		echo('<p><span>Mark Ormesher:</span> ' . $header . '</p>');
