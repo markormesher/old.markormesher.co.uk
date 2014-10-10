@@ -23,7 +23,7 @@
 	<div class="anchor"><a name="about"></a></div>
 	<div class="waypoint"></div>
 	<div class="container column-container">
-		<h2>About Me</h2>
+		<h2><a href="/about" title="Mark Ormesher: programmer and teacher">About Me <i class="fa fa-arrow-circle-right"></i></a></h2>
 		<div class="seven column">
 			<p><strong>Hi! I'm <em>Mark</em></strong>.</p>
 			<p>I'm a programmer, developer and student in London. I've been coding for over 9 years, including <em>full-stack web development</em> and, most recently, <em>Android development</em>.</p>
@@ -51,7 +51,7 @@
 	<div class="anchor"><a name="skills"></a></div>
 	<div class="waypoint"></div>
 	<div class="container column-container">
-		<h2>Skills</h2>
+		<h2><a href="/skills" title="Programming and development skills">Skills <i class="fa fa-arrow-circle-right"></i></a></h2>
 		<div class="charts hide-on-small">
 			<div class="chart android-chart">
 				<div class="percentage" data-percent="0"></div>
@@ -123,7 +123,7 @@
 	<div class="waypoint"></div>
 	<div class="container column-container">
 		<div class="eight column">
-			<h2>Blog</h2>
+			<h2><a href="/blog" title="Programming and development blog">Blog <i class="fa fa-arrow-circle-right"></i></a></h2>
 			<?php
 			$latestPosts = new WP_Query('showposts=2');
 			$first = true;
@@ -132,7 +132,7 @@
 				if ($first) {
 					$first = false;
 				} else {
-					echo('<br/>');
+					echo('<div class="hr"><hr/></div>');
 				}
 				echo('<h3><a href="' . get_the_permalink() . '" title="' . get_the_title() . '">' . get_the_title() . '</a></h3>');
 				echo('<p class="date-line">' . get_the_date() . '</p>');
@@ -140,10 +140,6 @@
 				echo('<p><i class="fa fa-arrow-circle-right orange"></i> <a href="' . get_the_permalink() . '" title="' . get_the_title() . '">Read the Full Post</a></p>');
 			}
 			?>
-			<div class="hr">
-				<hr/>
-			</div>
-			<h3 class="full-blog-link orange"><a href="/blog" title="Programming blog from Mark Ormesher"><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;Full Blog</a></h3>
 		</div>
 		<div class="one column column-spacer">
 			&nbsp; <!-- blank -->
@@ -168,7 +164,7 @@
 	<div class="anchor"><a name="contact"></a></div>
 	<div class="waypoint"></div>
 	<div class="container column-container">
-		<h2>Contact Me</h2>
+		<h2><a href="/contact" title="Contact Mark Ormesher">Contact Me <i class="fa fa-arrow-circle-right"></i></a></h2>
 		<div class="seven column">
 			<p></p>
 			<p>If you want to get in touch with me, please fire away on any of these channels. <em>I'd love to hear from you</em>, and I promise I'll get back to you within a day or so.</p>
