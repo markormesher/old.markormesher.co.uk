@@ -41,7 +41,7 @@
 			<div class="permanent-photo-frame about-photo">
 				<div>&nbsp;</div>
 			</div>
-			<p class="caption">Climbing in the <strong>Valley de la Luna</strong> near La Paz, Bolivia.</p>
+			<p class="caption">Driving through the savannah at sunset in <strong>Guyana, South America</strong>.</p>
 		</div>
 		<div class="column-fix"></div>
 	</div>
