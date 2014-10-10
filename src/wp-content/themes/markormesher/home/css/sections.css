@@ -24,11 +24,12 @@ div.anchor {
 
 div.about-photo {
 	width: 100%;
-	padding-bottom: 80%;
+	margin-bottom: 1.2em;
+	padding-bottom: 75%;
 }
 
 div.about-photo > div {
-	border: 0.4em solid #222222;
+	border: 0.2em solid #222222;
 	background: url('../images/profile-photo.png') no-repeat center;
 	background-size: cover;
 }
