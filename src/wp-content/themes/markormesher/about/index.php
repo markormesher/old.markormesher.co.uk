@@ -1,7 +1,7 @@
 <div class="page">
 	<div class="container column-container">
-		<h1>About Me</h1>
 		<div class="five-half column">
+			<h1>About Me</h1>
 			<h2>Right Now: Work</h2>
 			<p>As the <strong>lead Android developer</strong> for <a href="http://www.unitu.co.uk" title="Unitu: Learn Better, Together" rel="external">Unitu</a>, I am responsible for building and testing an app that will soon be deployed to 2500 UK university students.</p>
 			<h2>Programming</h2>
@@ -15,6 +15,9 @@
 			&nbsp; <!-- blank -->
 		</div>
 		<div class="five-half column">
+			<div class="permanent-photo-frame about-photo">
+				<div>&nbsp;</div>
+			</div>
 			<h2>Right Now: Studies</h2>
 			<p>I am a second-year Computer Science student at <strong>King's College London</strong>. I maintained a 93% average over my first year, and in 2015/16 I will complete a year-long industry placement.</p>
 			<h2>Awards</h2>

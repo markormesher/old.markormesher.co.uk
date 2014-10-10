@@ -1,5 +1,6 @@
 <?php
 $css = array();
+$css[] = 'about/css/about.css';
 
 $js = array();
 
