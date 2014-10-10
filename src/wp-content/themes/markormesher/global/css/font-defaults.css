@@ -92,6 +92,12 @@ p, li, .form-field, .form-button {
 	line-height: 1.5em;
 }
 
+p.caption {
+	font-size: 0.8em;
+	text-align: center;
+	font-style: italic;
+}
+
 ul {
 	margin: 0;
 	padding: 0;

@@ -1,12 +1,12 @@
 div.about-photo {
-	width: 60%;
-	margin-left: 20%;
-	margin-bottom: 0.8em;
-	padding-bottom: 48%;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 1.2em;
+	padding-bottom: 52.7%;
 }
 
 div.about-photo > div {
-	border: 0.4em solid #222222;
-	background: url('../images/profile-photo.png') no-repeat center;
+	border: 0.2em solid #222222;
+	background: url('../images/bcs-award.jpg') no-repeat center;
 	background-size: cover;
 }

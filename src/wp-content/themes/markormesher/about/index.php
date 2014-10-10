@@ -15,9 +15,10 @@
 			&nbsp; <!-- blank -->
 		</div>
 		<div class="five-half column">
-			<div class="permanent-photo-frame about-photo">
+			<div class="permanent-photo-frame about-photo hide-on-small">
 				<div>&nbsp;</div>
 			</div>
+			<p class="caption">Receiving the <strong>British Computing Society Award for Best Student</strong>. Left to right: me; Prof. Liz Bacon, BCS President; Prof. Peter McBurney, KCL Head of Informatics.</p>
 			<h2>Right Now: Studies</h2>
 			<p>I am a second-year Computer Science student at <strong>King's College London</strong>. I maintained a 93% average over my first year, and in 2015/16 I will complete a year-long industry placement.</p>
 			<h2>Awards</h2>
