@@ -95,6 +95,8 @@ p, li, .form-field, .form-button {
 p.caption {
 	font-size: 0.85em;
 	text-align: center;
+	font-weight: 400;
+	font-style: italic;
 }
 
 ul {
