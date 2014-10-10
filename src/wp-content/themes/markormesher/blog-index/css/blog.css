@@ -15,3 +15,10 @@ ul.tag-list li a {
 	color: inherit !important;
 	border-bottom-style: none;
 }
+
+/* headings */
+
+h3 a {
+	color: inherit !important;
+	border-bottom-color: #222222;
+}
