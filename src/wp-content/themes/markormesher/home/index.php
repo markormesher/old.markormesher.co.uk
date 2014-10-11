@@ -41,7 +41,7 @@
 			<div class="permanent-photo-frame about-photo">
 				<div>&nbsp;</div>
 			</div>
-			<p class="caption">Driving through the savannah at sunset in <strong>Guyana, South America</strong>.</p>
+			<p class="caption">Travelling through the savannah at sunset in <strong>Guyana, South America</strong>.</p>
 		</div>
 		<div class="column-fix"></div>
 	</div>
