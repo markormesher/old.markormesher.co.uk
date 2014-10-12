@@ -14,6 +14,12 @@ while (have_posts()) {
 			&nbsp; <!-- blank -->
 		</div>
 		<div class="three column">
+			<div class="hr hide-on-large block-on-small"><hr/></div>
+
+			<h3 class="ta-center"><a href="/blog" title="Mark Ormesher's programming blog"><i class="fa fa-arrow-circle-left"></i> Back to Blog</a></h3>
+
+			<div class="hr"><hr/></div>
+
 			<h3>Tags</h3>
 			<p class="tag-list">
 			<?php
