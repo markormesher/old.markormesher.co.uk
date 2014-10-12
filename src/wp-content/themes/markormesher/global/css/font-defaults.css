@@ -135,6 +135,11 @@ a:hover, a.imagelink, a.fancybox-item {
 	border-bottom-style: none;
 }
 
+a.nonlink {
+	color: inherit !important;
+	border-bottom: none;
+}
+
 /* useful stuff */
 
 .orange {

@@ -85,9 +85,9 @@
 		</div>
 		<div class="three column">
 			<p><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;+44 (0) 7775 932063</p>
-			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;mark@ormo.me</p>
+			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mark@ormo.me" class="nonlink">mark@ormo.me</a></p>
 			<p><i class="fa fa-skype"></i>&nbsp;&nbsp;&nbsp;&nbsp;mark.ormo</p>
-			<p><i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;@m_s_ormo</p>
+			<p><i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.twitter.com/m_s_ormo" rel="external" class="nonlink">@m_s_ormo</a></p>
 		</div>
 		<div class="column-fix"></div>
 	</div>
