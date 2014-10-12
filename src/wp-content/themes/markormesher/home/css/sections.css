@@ -70,11 +70,12 @@ p.date-line {
 	font-style: italic;
 }
 
-ul.blog-tag-list li {
-	list-style-type: none;
-}
-
-ul.blog-tag-list li a {
+p.tag-list a {
 	color: inherit !important;
 	border-bottom-style: none;
+	line-height: 2.4em;
+}
+
+p.tag-list a:hover {
+	border-bottom: 1px solid #222222;
 }

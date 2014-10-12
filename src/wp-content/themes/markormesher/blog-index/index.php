@@ -33,15 +33,17 @@
 		</div>
 		<div class="three column">
 			<h3>Popular Tags</h3>
-			<ul class="tag-list">
+			<p class="tag-list">
 				<?php
-				$tags = get_tags(array('orderby' => 'count', 'order' => 'DESC', 'number' => 6));
+				$tags = get_tags(array('orderby' => 'count', 'order' => 'DESC', 'number' => 12));
+				$output = array();
 				foreach ($tags as $t) {
 					$link = get_tag_link($t->term_id);
-					echo('<li><a href="' . $link . '" title="' . $t->name . ' posts">#' . $t->name . '</a></li>');
+					$output[] = '<a href="' . $link . '" title="' . $t->name . ' posts">#' . $t->name . '</a>';
 				}
+				echo(implode('&nbsp;&nbsp; ', $output));
 				?>
-			</ul>
+			</p>
 		</div>
 		<div class="column-fix"></div>
 	</div>

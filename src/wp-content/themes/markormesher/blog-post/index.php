@@ -15,15 +15,17 @@ while (have_posts()) {
 		</div>
 		<div class="three column">
 			<h3>Tags</h3>
-			<ul class="tag-list">
+			<p class="tag-list">
 			<?php
 			$tags = get_the_tags();
+			$output = array();
 			foreach ($tags as $t) {
 				$link = get_tag_link($t->term_id);
-				echo('<li><a href="' . $link . '" title="' . $t->name . ' posts">#' . $t->name . '</a></li>');
+				$output[] = '<a href="' . $link . '" title="' . $t->name . ' posts">#' . $t->name . '</a>';
 			}
+			echo(implode('&nbsp;&nbsp; ', $output));
 			?>
-			</ul>
+			</p>
 
 			<div class="hr"><hr/></div>
 
