@@ -43,7 +43,7 @@
 					if ($sending) {
 						echo('<p><em>Thank You!</em> Your message was sent, and will be landing in my inbox in a couple of minutes.</p>');
 						echo('<p><strong>I\'ll get back to you as soon as possible.</strong></p>');
-						echo('</div><div class="column-fix"></div></div>');
+						echo('</div><div class="three column"><h3>Where Now?</h3><ul class="inside"><li><a href="/" title="Mark Ormesher">Start at the home page</a></li><li><a href="/blog" title="Mark Ormesher\'s programming blog">Check out my blog</a></li><li><a href="/about" title="Mark Ormesher technical profile">Read my profile</a></li><li><a href="/skills" title="Mark Ormesher\'s programming skills">Read my skills summary</a></li></ul></div><div class="column-fix"></div></div>');
 						return;
 					} else {
 						echo('<p class="error">There was an error whilst sending the email; please try again, or contact me directly on <a href="mailto:mark@ormo.me" title="Email Mark Ormesher">mark@ormo.me</a>.</p>');
