@@ -10,3 +10,8 @@ div.about-photo > div {
 	background: url('../images/bcs-award.jpg') no-repeat center;
 	background-size: cover;
 }
+
+h2 i {
+	color: #999999;
+	margin-right: 0.3em;
+}
