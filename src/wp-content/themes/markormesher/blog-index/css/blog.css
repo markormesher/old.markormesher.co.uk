@@ -20,5 +20,18 @@ ul.tag-list li a {
 
 h3 a {
 	color: inherit !important;
-	border-bottom-color: #222222;
+	border-bottom: none;
+}
+
+h3 a span {
+	border-bottom:1px solid #222222;
+}
+
+h3 a:hover span {
+	border-bottom-style: none !important;
+}
+
+h3 i {
+	color: #999999;
+	margin-right: 0.3em;
 }

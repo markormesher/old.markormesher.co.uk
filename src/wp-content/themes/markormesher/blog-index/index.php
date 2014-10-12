@@ -14,7 +14,13 @@
 					} else {
 						echo('<div class="hr"><hr/></div>');
 					}
-					echo('<h3><a href="' . get_the_permalink() . '" title="' . get_the_title() . '">' . get_the_title() . '</a></h3>');
+					$custom = get_post_custom();
+					if (array_key_exists('font-icon', $custom)) {
+						$icon = '<i class="fa fa-' . $custom['font-icon'][0] . '"></i> ';
+					} else {
+						$icon = '';
+					}
+					echo('<h3><a href="' . get_the_permalink() . '" title="' . get_the_title() . '">' . $icon . '<span>' . get_the_title() . '</span></a></h3>');
 					echo('<p class="date-line">' . get_the_date() . '</p>');
 					echo(get_the_excerpt());
 					echo('<p><i class="fa fa-arrow-circle-right orange"></i> <a href="' . get_the_permalink() . '" title="' . get_the_title() . '">Read the Full Post</a></p>');
