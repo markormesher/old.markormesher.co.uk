@@ -131,7 +131,7 @@ a {
 	border-bottom: 1px solid #ff590d;
 }
 
-a:hover, a.imagelink {
+a:hover, a.imagelink, a.fancybox-item {
 	border-bottom-style: none;
 }
 

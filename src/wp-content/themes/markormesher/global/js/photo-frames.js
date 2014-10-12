@@ -40,6 +40,13 @@ $(document).ready(function () {
 			marginRight: ((1 - frameWidth) / 0.02) + '%',
 			paddingBottom: Math.round((originalH/originalW) * 100 * frameWidth) + '%'
 		});
+
+		// clickable!
+		f.fancybox({
+			type: 'image',
+			href: imageUrl,
+			autoSize: true
+		});
 	}
 
 });
