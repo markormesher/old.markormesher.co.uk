@@ -122,8 +122,8 @@
 	<div class="anchor"><a name="blog"></a></div>
 	<div class="waypoint"></div>
 	<div class="container column-container">
+		<h2><a href="/blog" title="Programming and development blog">Blog <i class="fa fa-arrow-circle-right"></i></a></h2>
 		<div class="eight column">
-			<h2><a href="/blog" title="Programming and development blog">Blog <i class="fa fa-arrow-circle-right"></i></a></h2>
 			<?php
 			$latestPosts = new WP_Query('showposts=2');
 			$first = true;
