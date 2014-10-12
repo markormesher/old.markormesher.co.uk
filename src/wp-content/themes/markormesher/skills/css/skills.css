@@ -1,0 +1,17 @@
+div.fire-photo {
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 1.2em;
+	padding-bottom: 40.9%;
+}
+
+div.fire-photo > div {
+	border: 0.2em solid #222222;
+	background: url('../images/fire.jpg') no-repeat center;
+	background-size: cover;
+}
+
+h2 i {
+	color: #999999;
+	margin-right: 0.3em;
+}

@@ -3,7 +3,7 @@
 		<div class="five-half column">
 			<h1>About Me</h1>
 			<h2><i class="fa fa-wrench"></i> Now: Work</h2>
-			<p>As the <strong>lead Android developer</strong> for <a href="http://www.unitu.co.uk" title="Unitu: Learn Better, Together" rel="external">Unitu</a>, I am responsible for building and testing an app that will soon be deployed to 2500 UK university students.</p>
+			<p>As the <strong>lead Android developer</strong> for <a href="http://www.unitu.co.uk" title="Unitu: Learn Better, Together" rel="external">Unitu</a>, I am responsible for building and testing an app that will soon be deployed to 2,500 UK university students.</p>
 
 			<div class="hr"><hr/></div>
 

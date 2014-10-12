@@ -1,5 +1,6 @@
 <?php
 $css = array();
+$css[] = 'skills/css/skills.css';
 
 $js = array();
 
