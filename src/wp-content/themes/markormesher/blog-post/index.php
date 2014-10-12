@@ -24,7 +24,11 @@ while (have_posts()) {
 			}
 			?>
 			</ul>
-			<h3>Share This</h3>
+
+			<div class="hr"><hr/></div>
+
+			<?php echo do_shortcode('[ssba]'); ?>
+			<p class="caption">(Because sharing is caring)</p>
 		</div>
 		<div class="column-fix"></div>
 	</div>
