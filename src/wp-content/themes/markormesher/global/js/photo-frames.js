@@ -49,4 +49,25 @@ $(document).ready(function () {
 		});
 	}
 
+	// make permanent frames clickable as well
+	var pFrames = $('.clickable-photo-frame');
+
+	for (var fi2 = 0; fi2 < pFrames.length; ++fi2) {
+		// get photo frame
+		f = $(pFrames[fi2]);
+
+		// set click cursor
+		f.css('cursor', 'pointer');
+
+		// get background image
+		var img = f.find('div:first-child').css('background-image');
+		img = img.replace('url("', '').replace('")', '');
+
+		f.fancybox({
+			type: 'image',
+			href: img,
+			autoSize: true
+		});
+	}
+
 });

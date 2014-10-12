@@ -40,7 +40,7 @@
 			<h2><i class="fa fa-fire"></i> Other Skills</h2>
 			<p>I am currently learning <strong>Spanish</strong> and I occasionally practise a number of circus skills, including diabolo performance, fire eating and fire breathing.</p>
 
-			<div class="permanent-photo-frame fire-photo">
+			<div class="clickable-photo-frame permanent-photo-frame fire-photo">
 				<div>&nbsp;</div>
 			</div>
 		</div>

@@ -16,6 +16,8 @@ global $css, $js, $includes;
 		?></title>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/jquery.js"></script>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/global.js"></script>
+		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/fancybox/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/photo-frames.js"></script>
 		<link rel="profile" href="http://gmpg.org/xfn/11"/>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,300,900"/>
@@ -28,7 +30,6 @@ global $css, $js, $includes;
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/pages.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/layout-items.css"/>
-		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/fancybox/jquery.fancybox.pack.js"></script>
 <?php
 		$settingsFile = false;
 		if (is_page()) {

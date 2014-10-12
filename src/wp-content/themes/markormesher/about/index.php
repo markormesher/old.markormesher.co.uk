@@ -22,7 +22,7 @@
 			&nbsp; <!-- blank -->
 		</div>
 		<div class="five-half column">
-			<div class="permanent-photo-frame about-photo hide-on-small">
+			<div class="clickable-photo-frame permanent-photo-frame about-photo hide-on-small">
 				<div>&nbsp;</div>
 			</div>
 			<p class="caption">Receiving the <strong>British Computing Society Award for Best Student</strong>. Left to right: me; Prof. Liz Bacon, BCS President; Prof. Peter McBurney, KCL Head of Informatics.</p>
