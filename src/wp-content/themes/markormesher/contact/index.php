@@ -32,7 +32,7 @@
 					$emailMsg .= 'Phone: ' . (strlen($phone) ? $phone : 'None') . "\n";
 					$emailMsg .= "---------\n";
 					$emailMsg .= $message . "\n\n";
-					$emailMsg .= 'Send on ' . date('j M Y \a\t H:i');
+					$emailMsg .= 'Sent on ' . date('j M Y \a\t H:i');
 					set_include_path('/home/markorme/php');
 					require('Mail.php');
 					$factory =& Mail::factory('smtp',array('port'=>25,'auth'=>false));
