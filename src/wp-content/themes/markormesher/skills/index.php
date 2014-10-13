@@ -24,6 +24,9 @@
 			&nbsp; <!-- blank -->
 		</div>
 		<div class="five-half column">
+
+			<div class="hr hide-on-large block-on-small"><hr/></div>
+
 			<h2><i class="fa fa-desktop"></i> Website Development</h2>
 			<p>I first started working with websites in 2006 and since then I have been involved in server management and UI design, but the majority of my work has been <strong>back-end development</strong>.</p>
 			<p>With various technologies I have produced a range of websites, including digital and physical <em>ecommerce</em>, <em>content management</em>, access control and simple profile sites.</p>
