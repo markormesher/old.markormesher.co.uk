@@ -161,8 +161,11 @@ a.nonlink {
 
 code {
 	font-family: "Courier New", serif;
+	font-weight: 300;
+	font-size: 0.8em;
 	background-color: #ffffff;
 	border: 1px #ff590d solid;
 	border-radius: 4px;
 	padding: 0 2px;
+	display: inline-block;
 }
