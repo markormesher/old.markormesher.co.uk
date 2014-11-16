@@ -20,7 +20,6 @@ global $css, $js, $includes;
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/photo-frames.js"></script>
 		<link rel="profile" href="http://gmpg.org/xfn/11"/>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,300,900"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/fancybox/jquery.fancybox.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/font-awesome/css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/font-defaults.css"/>
