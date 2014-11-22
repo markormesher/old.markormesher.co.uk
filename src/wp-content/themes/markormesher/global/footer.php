@@ -6,6 +6,6 @@
 			<p>If you do choose to use any of my material, I'd love to hear from you. This is optional and is not part of the copyright notice, but it's always nice to know when one's work is proving useful!</p>
 		</div>
 		<div class="column-fix"></div>
-		<p class="ta-center"><i class="fa fa-rocket orange"></i></p>
+		<p class="ta-center" title="To the moon!"><i class="fa fa-rocket orange"></i></p>
 	</div>
 </div>
