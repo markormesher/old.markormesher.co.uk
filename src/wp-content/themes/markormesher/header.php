@@ -1,5 +1,6 @@
 <?php
-global $css, $js, $includes;
+	header('X-Frame-Options: DENY');
+	global $css, $js, $includes;
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
@@ -13,7 +14,24 @@ global $css, $js, $includes;
 			} else {
 				wp_title('');
 			}
-		?></title>
+			?></title>
+
+		<!-- ANTI CLICKJACK -->
+		<style id="antiClickjack" type="text/css">
+			body {
+				display: none !important;
+			}
+		</style>
+		<script type="text/javascript">
+			if (self === top) {
+				var antiClickjack = document.getElementById("antiClickjack");
+				antiClickjack.parentNode.removeChild(antiClickjack);
+			} else {
+				top.location = self.location;
+			}
+		</script>
+		<!-- END ANTI CLICKJACK -->
+
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/jquery.js"></script>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/js/global.js"></script>
 		<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/global/fancybox/jquery.fancybox.pack.js"></script>
@@ -29,7 +47,7 @@ global $css, $js, $includes;
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/pages.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/global/css/layout-items.css"/>
-<?php
+		<?php
 		$settingsFile = false;
 		if (is_page()) {
 			while (have_posts()) {
