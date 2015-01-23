@@ -5,3 +5,6 @@
 
 # WP
 src/wp-config.php
+
+# blog photos
+blog/
