@@ -33,8 +33,7 @@
 					$emailMsg .= "---------\n";
 					$emailMsg .= $message . "\n\n";
 					$emailMsg .= 'Sent on ' . date('j M Y \a\t H:i');
-					set_include_path('/home/markorme/php');
-					require('Mail.php');
+					require('/usr/share/php/Mail.php');
 					$factory =& Mail::factory('smtp',array('port'=>25,'auth'=>false));
 					$headers['From'] = $name . '<' . $email . '>';
 					$headers['To'] = 'me@markormesher.co.uk';
