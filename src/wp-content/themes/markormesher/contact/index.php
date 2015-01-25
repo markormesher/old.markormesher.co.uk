@@ -26,6 +26,7 @@
 					$factory =& Mail::factory('smtp',
 						array(
 							'host' => $host,
+							'port' => $port,
 							'auth' => true,
 							'username' => $username,
 							'password' => $password
@@ -35,6 +36,7 @@
 					$headers['To'] = 'me@markormesher.co.uk';
 					$headers['Subject'] = 'From MarkOrmesher.co.uk';
 					$sending = $factory->send($headers['To'], $headers, $emailMsg);
+					if (PEAR::isError($mail)) {echo('<p>' . $mail->getMessage() . '</p>');}
 					if ($sending) {
 						echo('<p><em>Thank You!</em> Your message was sent, and will be landing in my inbox in a couple of minutes.</p>');
 						echo('<p><strong>I\'ll get back to you as soon as possible.</strong></p>');
