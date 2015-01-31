@@ -1,6 +1,18 @@
 <?php
 	header('X-Frame-Options: DENY');
 	global $css, $js, $includes;
+
+	// is this a 404? could it be a project link?
+	if (is_404()) {
+		$attempt = substr($_SERVER['REQUEST_URI'], 1);
+		$projectsLinks = [
+			'bf' => 'projects/bf/',
+			'snake' => 'projects/fares-snake'
+		];
+		if (isset($projectsLinks[$attempt])) {
+			header('Location: ' . $projectsLinks[$attempt]);
+		}
+	}
 ?><!DOCTYPE html>
 <!-- NEW SERVER -->
 <html <?php language_attributes(); ?>>
