@@ -7,7 +7,9 @@
 		$attempt = substr($_SERVER['REQUEST_URI'], 1);
 		$projectsLinks = [
 			'bf' => 'projects/bf/',
-			'snake' => 'projects/snake'
+			'snake' => 'projects/snake',
+			'3peaks' => 'projects/three-peaks',
+			'3p' => 'projects/three-peaks`
 		];
 		if (isset($projectsLinks[$attempt])) {
 			header('Location: ' . $projectsLinks[$attempt]);
