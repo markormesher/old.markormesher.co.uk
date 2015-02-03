@@ -9,7 +9,7 @@
 			'bf' => 'projects/bf/',
 			'snake' => 'projects/snake',
 			'3peaks' => 'projects/three-peaks',
-			'3p' => 'projects/three-peaks`
+			'3p' => 'projects/three-peaks'
 		];
 		if (isset($projectsLinks[$attempt])) {
 			header('Location: ' . $projectsLinks[$attempt]);
