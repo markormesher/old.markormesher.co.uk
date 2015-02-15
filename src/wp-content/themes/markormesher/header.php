@@ -9,7 +9,8 @@
 			'bf' => 'projects/bf/',
 			'snake' => 'projects/snake',
 			'3peaks' => 'projects/three-peaks',
-			'3p' => 'projects/three-peaks'
+			'3p' => 'projects/three-peaks',
+			'3p-donate' => 'https://www.justgiving.com/teams/threepeaks2015'
 		];
 		if (isset($projectsLinks[$attempt])) {
 			header('Location: ' . $projectsLinks[$attempt]);
